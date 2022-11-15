@@ -80,7 +80,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="Calc.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainWindow.cpp" />
   </ItemGroup>
@@ -97,7 +97,8 @@
     <ResourceCompile Include="Calculator0311.rc" />
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="Calculator.h" />
+    <QtMoc Include="Calc.h" />
+    <ClInclude Include="CommonData.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
