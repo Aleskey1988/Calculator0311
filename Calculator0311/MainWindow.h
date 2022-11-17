@@ -15,6 +15,12 @@ private:
 	void onSetDigit(int digit);
 	void onSetOperation(Operation op);
 	void onSetPlusMinus();
+	void onSetComma();
+	void onClear();
+	void onRemoveSymbol();
+	void onDivideOneByX();
+	void onSquare();
+	void onSquareRoot();
 	void onEqual();
 	
 	void onInputChanged(QString str);

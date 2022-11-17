@@ -10,7 +10,6 @@ class Calc : public QObject
 
 public:
 	Calc();
-	~Calc();
 
 	void SetDigit(int digit);
 	void SetOperation(Operation op);
@@ -28,6 +27,7 @@ signals:
 
 private:
 	QString simplifyResult(QString str);
+	void SimplifyResultAndEmit(double result);
 
 	QString firstNumber = "0";
 	QString secondNumber = "0";
